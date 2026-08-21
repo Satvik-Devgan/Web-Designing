@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Form</title>
+</head>
+<body>
+    <h1>Initial Form</h1>
+    <form action="form.html" method="post">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+                <td>Subscribe:</td>
+                <td>
+                    <input type="checkbox" name="subscribe" value="yes"> Subscribe to receive more forms
+                </td>
+            </tr>
+                <tr>
+                    <td>Feedback:</td>
+                    <td>
+                        <textarea name="feedback" rows="4" cols="50" placeholder="Enter your feedback here"></textarea>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="the submit button" placeholder="Submit the form">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset" name="the reset button" placeholder="Reset the form">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
